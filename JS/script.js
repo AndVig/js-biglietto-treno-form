@@ -12,7 +12,6 @@ document.getElementById('btn').addEventListener('click', function(){
      var fullPrice = length * 0.21 ;
      
      console.log(fullPrice);
-    
      if(age <= 18){
          document.getElementById('cost').innerHTML= line1 + ((fullPrice / 100) * 80) + value;
      }
